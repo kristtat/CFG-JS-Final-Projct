@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f3e9dc; 
+    color: #4d4640;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #4d4640; 
+    background-color: #fff; 
+  }
+  textarea {
+    resize: vertical;
+  }
+  input[type="submit"] {
+    background-color: #6f4e37;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  input[type="submit"]:hover {
+    background-color: #5b4130;
+  }
+/*Css for when user adds book to the website  */
+  .book-entry {
+    background-color: #f0e2cd; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+              ul {
+                      list-style: none;
+                      padding-left: 0;
+              }
+          .column {
+                          display: inline-block;
+                          width: 48%; 
+                          vertical-align: top; 
+                  }
